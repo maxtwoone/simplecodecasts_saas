@@ -12,9 +12,12 @@ class ProfilesController < ApplicationController
             flash[:success] = "Profile Updated!"
             redirect_to user_path( params[:user_id] )
         else
-            flash[:error] ="There was an error."
             render action: :new
         end
+    end
+    
+    def show
+        
     end
     
     private
