@@ -168,7 +168,7 @@ DEPENDENCIES
   coffee-rails (= 4.0.0)
   devise (~> 3.4.1)
   figaro (= 1.0.0)
-  font-awesome-sass (= 4.2.0)
+  font-awesome-sass
   jbuilder (= 2.0)
   jquery-rails
   paperclip (= 4.2.1)
