@@ -8,6 +8,13 @@
     color: white;
 }
 
+.well {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
 .well.profile-block {
     color: #fff;
     h3 {
@@ -23,4 +30,17 @@
 .well.contact-info {
     background-color: #5bc0de;
     border-color: #46b8da;
+}
+
+.well.white-bg {
+    background-color: #fff;
+}
+
+a, a:hover {
+    color: #555;
+    text-decoration: none;
+}
+
+.user-index-avatar {
+    border-radius: 50%;
 }
